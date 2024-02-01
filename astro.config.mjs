@@ -7,15 +7,15 @@ export default defineConfig({
 		starlight({
 			title: '最光阴',
 			defaultLocale: 'zh-CN',
-			// head: [
-			// 	{
-			// 		tag: 'script',
-			// 		attrs: {
-			// 			src: 'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js',
-			// 			defer: true,
-			// 		}
-			// 	}
-			// ],
+			head: [
+				{
+					tag: 'script',
+					attrs: {
+						src: 'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js',
+						defer: true,
+					}
+				}
+			],
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
