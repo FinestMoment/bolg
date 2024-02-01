@@ -7,15 +7,24 @@ export default defineConfig({
 		starlight({
 			title: '最光阴',
 			defaultLocale: 'zh-CN',
+			// head: [
+			// 	{
+			// 		tag: 'script',
+			// 		attrs: {
+			// 			src: 'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js',
+			// 			defer: true,
+			// 		}
+			// 	}
+			// ],
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: '学习',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Markdown语法', link: '/study/markdown/' },
 					],
 				},
 				{
