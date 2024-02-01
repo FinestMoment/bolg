@@ -6,6 +6,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: '最光阴',
+			defaultLocale: 'zh-CN',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
@@ -20,6 +21,13 @@ export default defineConfig({
 				{
 					label: 'Reference',
 					autogenerate: { directory: 'reference' },
+				},
+				{
+					label: '工具库',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: '编程', link: '/tools/tools/' },
+					],
 				},
 			],
 		}),
